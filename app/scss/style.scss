@@ -122,3 +122,43 @@ body {
     line-height: 19px;
   }
 }
+
+.head-section {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    background: #FBFBFB;
+  }
+  &__column {
+    flex-basis: auto;
+    max-height: 467px;
+  }
+  &__title {
+    padding: 131px 0 0 127px;
+    margin: 0 0 19px 0;
+    width: 500px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    position: relative;
+  }
+  &__title::after {
+    content: "";
+    background-image: url(../images/coffee.png);
+    width: 90px;
+    height: 90px;
+    top: 192px;
+    position: absolute;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+    padding: 0 0 0 127px;
+    margin: 0 0 135px 0;
+  }
+  &__img {
+    padding: 70px 93px 74px 102px;
+  }
+}
