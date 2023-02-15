@@ -25,7 +25,7 @@ body {
     padding: 3px 0 3px;
   }
   &__input {
-    padding: 3px 0 2px;
+    padding: 3px 10px 2px;
     border: none;
     color: #718096;
     font-family: 'Inter';
@@ -33,7 +33,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    width: 66px;
+    max-width: 106px;
     cursor: pointer;
   }
   &__icon {
@@ -379,3 +379,5 @@ body {
     margin-top: 20px;
   }
 }
+
+@import 'media';
