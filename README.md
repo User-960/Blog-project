@@ -3,8 +3,9 @@
   
   What is used:
 
-- Programming languages: HTML, SCSS, JavaScript;
+- Programming languages: HTML, CSS, JavaScript;
 - Task runner: Gulp;
+- Preprocessor: SCSS;
 
 ## Run the commands to start the application:
 ### Clone a repository:
