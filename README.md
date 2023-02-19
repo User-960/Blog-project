@@ -14,6 +14,10 @@
 ### Installing dependencies:
     cd Blog-project
     npm install
+    
+    or
+
+    yarn install
 ***
 
 ### Build project:
