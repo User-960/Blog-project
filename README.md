@@ -1,32 +1,41 @@
 # Blog-project
-  The blog-project is being developed for learning the assembly of the project.
-  
-  What is used:
+
+The main purpose of the project is to practice make site and use task runner Gulp. The project itself is a single page application (landing).
+
+What is used:
 
 - Programming languages: HTML, CSS, JavaScript;
 - Task runner: Gulp;
 - Preprocessor: SCSS;
 
-## Run the commands to start the application:
-### Clone a repository:
-    git clone https://github.com/User-960/Blog-project.git
-***
-### Installing dependencies:
-    cd Blog-project
-    npm install
-    
-    or
+To clone repository
 
-    yarn install
-***
+```shell
+git clone https://github.com/User-960/Blog-project.git
+```
 
-### Build project:
-    gulp build
-***
+To install packages, use the command
 
-\* After project build: run the file `dist/index.html` in browser
-***
+```shell
+npm install
+```
 
-### Enable developer mode:
-    gulp
-*** 
+## Commands
+
+### Building a project without optimization and launch on server
+
+```shell
+npm run build-dev
+```
+
+### Building a project with optimization
+
+```shell
+npm run build-prod
+```
+
+### Cleaning up the dist folder
+
+```shell
+npm run clear
+```
